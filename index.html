@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <base href="/">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+<!--ENCABEZADO-->
+    <header class="container">
+        <img class="foto" src="/Multimedia/IMG_20220710_155433.jpg"
+            title="foto Emily Heredia"
+            alt="foto Emily Heredia">
+      <div class="containerlink">
+        <a class="link" href="#proyectos">Proyectos</a>
+        <a class="link" href="#skills">Skills</a>
+        <a class="link" href="#contacto">Contacto</a>
+      </div>
+    </header>
+
+<!--DESCRIPCION DE BIOGRAFIA-->
+<h1 class="text1">Hola, soy Emily Heredia!</h1>
+     <main class="containertext">
+      <section class="text">
+        <h2 class="text2">Bienvenido a mi portafolio!</h2>
+         <p class="text3">Hola, ¿Como estas? Primero que todo, encantada de conocerte!</p>
+         <p class="text3">Soy Emily Heredia, profesional del area de Administración 
+            de Empresas y Contabilidad. Actualmente me encuentro en un proceso de reorientacion 
+            laboral hacia el campo de IT y me encuentro en formacion
+            activa en el campo de Desarrollo Web.</p>
+        <h3 class="text2">Aptitudes:</h3>
+          <p class="text3">Entre mis principales aptitudes se encuentran:</p>
+            <ul>
+               <li class="text3">Gestion de proyectos</li>
+               <li class="text3">Comunicación</li>
+               <li class="text3">Gestion del tiempo</li>
+               <li class="text3">Resolucion de problemas</li>
+            </ul>
+      </section>
+    </main>
+
+<!--INVITACION A PORTAFOLIO-->
+  <a name="proyectos"></a>
+
+    <section>
+     <h3 class="portafolio">Te invito a visitar mi portafolio en Github dando clic en la imagen:</h3>
+     <nav class="logogit">
+      <a href="https://github.com/emilyjheredia" target="_blank"><img src="/Multimedia/GH.jpg" width="150px" class="imagenlogogit"></a>
+     </nav>
+    </section>
+
+<!---SKILLS-->
+<a name="skills"></a>
+
+<h2 class="skills-container">Mis skills:</h2>
+<div>
+  <h3 class="textskills">Python</h3>
+  <progress max="100" value="70" class="form-elementskills"></progress> 
+</div>
+<div>
+  <h3 class="textskills">HTML</h3>
+  <progress max="100" value="50" class="form-elementskills"></progress>
+</div>
+<div>
+  <h3 class="textskills">CSS</h3>
+  <progress max="100" value="50" class="form-elementskills"></progress>
+</div>
+<div>
+  <h3 class="textskills">Javascript</h3>
+  <progress max="100" value="20" class="form-elementskills"></progress>
+</div>
+
+
+<!--FORMULARIO-->
+  <a name="contacto"></a>
+
+    <h2 class="form-container">Formulario:</h2>
+    <form action="/formulario-completado.html" class="formulario">
+        <div>
+            <label for="name" class="textformulario">Nombre:</label>
+            <input required id="name" name="name" type="text" placeholder="Añade tu nombre" class="form-element">
+        </div>
+        <div>
+            <label for="lastname" class="textformulario">Apellido:</label>
+            <input required id="lastname" name="lastname" type="text" placeholder="Añade tu apellido" class="form-element">
+        </div>
+        <div>
+            <label for="phone" class="textformulario">Telefono:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]+" placeholder="Añade tu numero" class="form-element">
+        </div>
+        <div>
+            <label for="githubusername" class="textformulario">Github:</label>
+            <input type="text" id="githubusername" name="githubusername" pattern="^@[^\s]+" placeholder="Añade tu usuario de Github" class="form-element">
+        </div>
+        <fieldset class="radio">
+            <legend class="form-containerradio">¿Como me conociste?</legend>
+          <div class="textradio">
+            <label for="university">Universidad</label>
+            <input required id="university" type="radio" name="knowme" value="university">
+          </div>
+          <div class="textradio">
+            <label for="keepcodingkickoff">Keepcoding kick off</label>
+            <input required id="keepcodingkickoff" type="radio" name="knowme" value="keepcodingkickoff">
+          </div>
+          <div class="textradio">
+            <label for="colegio">Colegio</label>
+            <input required id="colegio" type="radio" name="knowme" value="colegio">
+          </div>
+          <div class="textradio">
+            <label for="github">Github</label>
+            <input required id="github" type="radio" name="knowme" value="github">
+          </div>
+        </fieldset>
+            <h3 class="informacion">Mas informacion:</h3>
+            <textarea required id="description" class="descripcioninput" placeholder="Que mas quieres saber"></textarea>
+         <input type="submit" value="Enviar" class="button">
+    </form>
+
+<!--PIE DE PAGINA-->
+    <footer class="redescontainer">
+      <nav class="redescontainer">
+        <a href="https://www.instagram.com/" target="_blank"><img src="/Multimedia/ig.jpg" width="30px" class="redes"></a>
+        <a href="https://www.twitter.com/" target="_blank"><img src="/Multimedia/TW.jpg" width="35px" class="redes"></a>
+        <a href="https://www.youtube.com/" target="_blank"><img src="/Multimedia/YT.jpg" width="40px" class="redes"></a>
+      </nav>
+    </footer>
+</body>
+</html>
