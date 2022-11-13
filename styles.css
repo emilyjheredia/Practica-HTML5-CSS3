@@ -254,6 +254,8 @@
 
 .descripcioninput {
     margin: 10px 10px 30px 10px;
+    width: 400px;
+    height: 150px;
 }
 
 .button{
