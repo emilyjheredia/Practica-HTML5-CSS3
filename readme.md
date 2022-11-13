@@ -1,4 +1,4 @@
-<h1 align="center"> Practica HTML5-CSS3 </h1>
+# Practica HTML5-CSS3
 
 Creacion de una pagina web basada en la presentacion de mi portafolio de Github.
 
