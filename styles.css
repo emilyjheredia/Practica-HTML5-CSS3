@@ -284,11 +284,13 @@
 
  /* MEDIA QUERIES */
 
- @media screen and (min-width: 435px)  {
+ @media screen and (min-width: 992px)  {
     .link {
         display: flex;
+        font-size: 100%;
     }
  }
+
 
  @media screen and (min-width: 992px) {
     .containerlink .link {
@@ -299,3 +301,66 @@
     }
  }
 
+ @media screen and (min-width: 992px)  {
+    .container {
+        width: 100vw;
+        height: 40vh;
+    }
+ }
+
+ @media screen and (min-width: 992px)  {
+    .container .foto {
+        height: 35vh;
+        width: 15vw;
+    }
+ }
+
+ @media screen and (min-width: 992px)  {
+    .text1 {
+        font-size: 200%;
+    }
+ }
+
+ @media screen and (min-width: 992px)  {
+    .containertext .text .text2 {
+        font-size: 150%;
+    }
+ }
+
+ @media screen and (min-width: 992px)  {
+    .containertext .text .text3 {
+        font-size: 120%;
+    }
+ }
+
+ @media screen and (min-width: 992px)  {
+    .portafolio {
+        font-size: 120%;
+    }
+ }
+
+ @media screen and (min-width: 992px)  {
+    .imagenlogogit {
+        height: 70%;
+    }
+ }
+
+ @media screen and (min-width: 992px)  {
+    .form-elementskills {
+        margin-left: 10em;
+    }
+ }
+
+ @media screen and (min-width: 992px)  {
+    .textskills {
+        width: 95%;
+        height: 70px;
+        padding-left: 2em;
+        font-size: 110%;
+        
+    }
+ }
+
+
+
+ 
